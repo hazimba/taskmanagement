@@ -138,7 +138,7 @@ export function TaskCard({ task }: TaskCardProps) {
         <div className="px-0">
           <h3
             className={cn(
-              "font-semibold text-sm leading-snug line-clamp-2",
+              "font-semibold text-sm leading-snug line-clamp-2 truncate",
               task.status === TaskStatus.COMPLETED &&
                 "line-through text-muted-foreground"
             )}
