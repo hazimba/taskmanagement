@@ -201,14 +201,14 @@ export default function DepartmentsPage() {
             >
               <div>
                 <p className="text-sm font-medium">{dept.name}</p>
-                <p className="text-[11px] text-muted-foreground mt-0.5">
+                {/* <p className="text-[11px] text-muted-foreground mt-0.5">
                   Created{" "}
                   {new Date(dept.created_at).toLocaleDateString("en-GB", {
                     day: "numeric",
                     month: "short",
                     year: "numeric",
                   })}
-                </p>
+                </p> */}
               </div>
               <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
                 <Button
